@@ -44,7 +44,20 @@
     "publishChangesOnly": true,
     "uniqCompNum": 0,
     "versionPublish": "5.7.4",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "site_lang": "es",
+    "global_header_custom": "<script src=\"https://www.google.com/recaptcha/enterprise.js?render=6Lf0arUnAAAAAMHEHhFOS_x7lyQqArxtDd9tpGwg\"></script>",
+    "global_footer_custom": "<script>\nfunction onClick(e) {\n  e.preventDefault();\n  grecaptcha.enterprise.ready(async () => {\n    const token = await grecaptcha.enterprise.execute('6Lf0arUnAAAAAMHEHhFOS_x7lyQqArxtDd9tpGwg', {action: 'LOGIN'});\n    // IMPORTANT: The 'token' that results from execute is an encrypted response sent by\n    // reCAPTCHA Enterprise to the end user's browser.\n    // This token must be validated by creating an assessment.\n    // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment\n  });\n}\n</script>",
+    "favicon": false,
+    "mbrsiteDomain": "i1occ4kjg8",
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
