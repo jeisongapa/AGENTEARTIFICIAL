@@ -31,7 +31,7 @@
       "presetSourceTheme": "solutionm4"
     },
     "path": "@PROJECT_PATH@",
-    "name": "Site-07-14_1810",
+    "name": "AGENTE ARTIFICIAL",
     "versionFirst": "5.7.4",
     "siteFonts": [
       {
@@ -43,13 +43,13 @@
     "imageResize": true,
     "publishChangesOnly": true,
     "uniqCompNum": 0,
-    "versionPublish": "5.7.4",
+    "versionPublish": "5.9.4",
     "screenshot": "screenshot.png",
     "site_lang": "es",
     "global_header_custom": "<script src=\"https://www.google.com/recaptcha/enterprise.js?render=6Lf0arUnAAAAAMHEHhFOS_x7lyQqArxtDd9tpGwg\"></script>",
-    "global_footer_custom": "<script>\n  grecaptcha.enterprise.ready(async () => {\n    const token = await grecaptcha.enterprise.execute('6Lf0arUnAAAAAMHEHhFOS_x7lyQqArxtDd9tpGwg', {action: 'homepage'});\n    // IMPORTANT: The 'token' that results from execute is an encrypted response sent by\n    // reCAPTCHA Enterprise to the end user's browser.\n    // This token must be validated by creating an assessment.\n    // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment\n  });\n</script>",
+    "global_footer_custom": "<!-- Start of Woopra Code -->\n<script>\n  !function(){var t,o,c,e=window,n=document,r=arguments,a=\"script\",i=[\"call\",\"cancelAction\",\"config\",\"identify\",\"push\",\"track\",\"trackClick\",\"trackForm\",\"update\",\"visit\"],s=function(){var t,o=this,c=function(t){o[t]=function(){return o._e.push([t].concat(Array.prototype.slice.call(arguments,0))),o}};for(o._e=[],t=0;t<i.length;t++)c(i[t])};for(e.__woo=e.__woo||{},t=0;t<r.length;t++)e.__woo[r[t]]=e[r[t]]=e[r[t]]||new s;(o=n.createElement(a)).async=1,o.src=\"https://static.woopra.com/js/w.js\",(c=n.getElementsByTagName(a)[0]).parentNode.insertBefore(o,c)}(\"woopra\");\n\n  woopra.config({\n    domain: \"agenteartificial.com\",\n    outgoing_tracking: true,\n    download_tracking: true,\n    click_tracking: true\n  });\n  \n  woopra.track();\n</script>\n<!-- End of Woopra Code -->\n\n<script>\n  grecaptcha.enterprise.ready(async () => {\n    const token = await grecaptcha.enterprise.execute('6Lf0arUnAAAAAMHEHhFOS_x7lyQqArxtDd9tpGwg', {action: 'homepage'});\n    // IMPORTANT: The 'token' that results from execute is an encrypted response sent by\n    // reCAPTCHA Enterprise to the end user's browser.\n    // This token must be validated by creating an assessment.\n    // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment\n  });\n</script>",
     "favicon": false,
-    "mbrsiteDomain": "tikq2gu3cx",
+    "mbrsiteDomain": "djtzhyibyy",
     "cssOptimize": false,
     "lazyLoad": false,
     "robotsSwitcher": false,
@@ -58,7 +58,9 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "global_before_html": ""
+    "global_before_html": "",
+    "chatbutton": {},
+    "usedWebp": false
   },
   "pages": {
     "index.html": {
