@@ -1066,8 +1066,8 @@ pre {
   -webkit-justify-content: center; }
 
 /* ocultar captcha*/
-.grecaptcha-badge{
-    display: none !important;
+.grecaptcha-badge { 
+    visibility: hidden;
 }
 
 
