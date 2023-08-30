@@ -49,7 +49,7 @@
     "global_header_custom": "",
     "global_footer_custom": "<script src=\"https://www.google.com/recaptcha/api.js?render=6LdACecnAAAAAHLqPNX6UCM-gI5qZXY3A2IpLjjK\"></script>\n\n\n<script>\n  grecaptcha.ready(function() {\n    grecaptcha.execute('6LdACecnAAAAAHLqPNX6UCM-gI5qZXY3A2IpLjjK', { action: 'homepage' })\n      .then(function(token) {\n        // Agrega el token a tu formulario o utiliza para verificar en el servidor\n      });\n  });\n</script>\n",
     "favicon": false,
-    "mbrsiteDomain": "7o4v9d67i2",
+    "mbrsiteDomain": "pujxhi1eih",
     "cssOptimize": false,
     "lazyLoad": false,
     "robotsSwitcher": false,
