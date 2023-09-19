@@ -46,10 +46,10 @@
     "versionPublish": "5.9.4",
     "screenshot": "screenshot.png",
     "site_lang": "es",
-    "global_header_custom": "",
+    "global_header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PX3LT88C');</script>\n<!-- End Google Tag Manager -->",
     "global_footer_custom": "<script src=\"https://www.google.com/recaptcha/api.js?render=6LdACecnAAAAAHLqPNX6UCM-gI5qZXY3A2IpLjjK\"></script>\n\n\n<script>\n  grecaptcha.ready(function() {\n    grecaptcha.execute('6LdACecnAAAAAHLqPNX6UCM-gI5qZXY3A2IpLjjK', { action: 'homepage' })\n      .then(function(token) {\n        // Agrega el token a tu formulario o utiliza para verificar en el servidor\n      });\n  });\n</script>\n",
     "favicon": false,
-    "mbrsiteDomain": "z2bokewqau",
+    "mbrsiteDomain": "sjwjwijkf7",
     "cssOptimize": false,
     "lazyLoad": false,
     "robotsSwitcher": false,
@@ -60,7 +60,8 @@
     "gdpr": false,
     "global_before_html": "",
     "chatbutton": {},
-    "usedWebp": false
+    "usedWebp": false,
+    "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PX3LT88C\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
   },
   "pages": {
     "index.html": {
